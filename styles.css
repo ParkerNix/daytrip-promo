@@ -1,0 +1,190 @@
+/* general */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background: #FDFCF1;
+}
+
+h1, h2, h3, p, a {
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, .hero-badges-single {
+    font-family: 'Ranille', serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p, a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 22.5px;
+}
+
+.pagewrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 24px 24px 0;
+}
+
+.section {
+    width: 100%;
+}
+
+.blue {
+    background: #6DA8FF;
+}
+
+.yellow {
+    background: #FFCE50;
+}
+
+.orange {
+    background: #FF8159;
+}
+
+.green {
+    background: #5FCCA0;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+
+    h1, p {
+        text-align: center;
+    }
+
+    .hero-badges {
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+
+        .hero-badges-single {
+            padding: 12px 18px;
+            border-radius: 10px;
+            border: 1.688px solid #222;
+        }
+    }
+
+    .orangetext {
+        color: #EF663A;
+        font-weight: 700;
+    }
+}
+
+/* userstory */
+
+.userstory {
+    display: flex;
+    justify-content: center;
+}
+
+.userstory-video {
+    width: 100%;
+    max-width: 900px;
+}
+
+/* team */
+
+.team-header {
+    padding-bottom: -25px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    .team-column {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 325px;
+
+        .team-column-head {
+            width: 100%;
+            border: 1px solid #222;
+            border-radius: 9px;
+            padding: 15px 18px;
+            margin-top: 20px;
+        }
+
+        .team-column-card {
+            width: 100%;
+            padding: 16px;
+            gap: 16px;
+            border: 1px solid #222;
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            background: #FCFCFF;
+
+            img {
+                width: 84px;
+                height: 84px;
+                border: 1px solid #222;
+                border-radius: 3px;
+            }
+
+            .team-column-card-content {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: end;
+
+    img {
+        width: 550px;
+    }
+}
