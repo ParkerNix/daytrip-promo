@@ -14,7 +14,7 @@ body {
 
 @font-face {
     font-family: 'Ranille';
-    src: url('./Ranille.ttf') format('ttf');
+    src: url('./Ranille.ttf');
 }
 
 h1, h2, h3, p, a {
