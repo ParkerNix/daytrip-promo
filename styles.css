@@ -25,6 +25,7 @@ h1, h2, h3, p, a {
 
 h1, h2, h3, .hero-badges-single {
     font-family: 'Ranille', serif;
+    font-weight: 400;
 }
 
 h1 {
@@ -107,6 +108,7 @@ p, a {
 
             p {
                 font-family: 'Ranille', serif;
+                font-weight: 400;
             }
         }
     }
