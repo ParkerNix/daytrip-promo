@@ -12,6 +12,11 @@ body {
     background: #FDFCF1;
 }
 
+@font-face {
+    font-family: 'Ranille';
+    src: url('Ranille.ttf') format('ttf');
+}
+
 h1, h2, h3, p, a {
     color: #222;
     margin: 0;
