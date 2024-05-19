@@ -45,6 +45,7 @@ p, a {
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
     font-size: 22.5px;
+    text-decoration: none;
 }
 
 .pagewrapper {
@@ -183,6 +184,12 @@ p, a {
             display: flex;
             align-items: center;
             background: #FCFCFF;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 0 0 7px;
+            }
 
             img {
                 width: 84px;
