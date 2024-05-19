@@ -79,6 +79,9 @@ p, a {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    opacity: 0;
+    animation: fadein 1s;
+    animation-fill-mode: forwards;
 
     img {
         width: 100%;
@@ -124,6 +127,9 @@ p, a {
 .userstory {
     display: flex;
     justify-content: center;
+    opacity: 0;
+    animation: fadein 1s linear .5s;
+    animation-fill-mode: forwards;
 }
 
 .userstory-video {
@@ -136,12 +142,18 @@ p, a {
 .team-header {
     padding-bottom: -25px;
     text-align: center;
+    opacity: 0;
+    animation: fadein 1s linear 1s;
+    animation-fill-mode: forwards;
 }
 
 .team {
     display: flex;
     justify-content: center;
     gap: 32px;
+    opacity: 0;
+    animation: fadein 1s linear 1.5s;
+    animation-fill-mode: forwards;
 
     .team-column {
         display: flex;
@@ -194,6 +206,9 @@ p, a {
 footer {
     display: flex;
     justify-content: end;
+    opacity: 0;
+    animation: fadein 1s linear 2s;
+    animation-fill-mode: forwards;
 
     img {
         width: 550px;
@@ -262,5 +277,19 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+}
+    
+/*animation*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        position: relative;
+        top: 20px;
+    }
+    to {
+        opacity: 1;
+        top: 0;
     }
 }
