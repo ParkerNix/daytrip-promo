@@ -22,6 +22,7 @@ h1, h2, h3, p, a {
     color: #222;
     margin: 0;
     padding: 0;
+    line-height: 100%;
 }
 
 h1, h2, h3, .hero-badges-single {
@@ -31,6 +32,7 @@ h1, h2, h3, .hero-badges-single {
 
 h1 {
     font-size: 96px;
+    line-height: 100%;
 }
 
 h2 {
@@ -105,6 +107,7 @@ p, a {
 
     p {
         font-weight: 600;
+        line-height: 170%;
     }
 
     .hero-badges {
