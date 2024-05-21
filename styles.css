@@ -188,7 +188,7 @@ p, a {
 
             &:hover {
                 transform: scale(1.1);
-                box-shadow: 0 0 7px;
+                box-shadow: 0 0 4px;
             }
 
             img {
