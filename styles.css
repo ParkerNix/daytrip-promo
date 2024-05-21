@@ -81,6 +81,7 @@ p, a {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    max-width: 1285px;
     opacity: 0;
     position: relative;
     animation: fadein 1s ease-in-out;
@@ -96,10 +97,14 @@ p, a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 48px;
+    gap: 32px;
 
     h1, p {
         text-align: center;
+    }
+
+    p {
+        font-weight: 600;
     }
 
     .hero-badges {
@@ -110,7 +115,7 @@ p, a {
         .hero-badges-single {
             padding: 12px 18px;
             border-radius: 10px;
-            border: 1.688px solid #222;
+            border: 1.5px solid #222;
 
             p {
                 font-family: 'Ranille', serif;
@@ -179,7 +184,7 @@ p, a {
             width: 100%;
             padding: 16px;
             gap: 16px;
-            border: 1px solid #222;
+            border: 1.5px solid #222;
             border-radius: 9px;
             display: flex;
             align-items: center;
@@ -187,14 +192,14 @@ p, a {
             transition: all .3s ease-in-out;
 
             &:hover {
-                transform: scale(1.1);
-                box-shadow: 0 0 4px;
+                transform: scale(1.05);
+                box-shadow: 0 0 2px;
             }
 
             img {
                 width: 84px;
                 height: 84px;
-                border: 1px solid #222;
+                border: 1.5px solid #222;
                 border-radius: 3px;
             }
 
@@ -224,17 +229,19 @@ footer {
     animation-fill-mode: forwards;
 
     img {
-        width: 550px;
+        width: 100%;
+        max-width: 550px;
     }
 }
 
 /*responsivity*/
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1185px) {
     .hero {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        gap: 32px;
 
         .hero-text {
             width: 100%;
@@ -279,6 +286,7 @@ footer {
 
         .hero-badges>.hero-badges-single {
             padding: 7.5px 10px;
+            border-radius: 6px;
     
             p {
                 font-size: 14.4px;
