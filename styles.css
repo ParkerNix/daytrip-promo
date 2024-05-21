@@ -213,6 +213,11 @@ p, a {
                     height: 30px;
                     border: none;
                 }
+
+                img.smaller {
+                    width: 19.5px;
+                    height: 19.5px;
+                }
             }
         }
     }
