@@ -279,7 +279,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     h1 {
-        font-size: 57.6px;
+        font-size: 48px;
     }
     
     h2 {
@@ -297,14 +297,22 @@ footer {
     .hero-text {
         gap: 20px;
 
+        p {
+            font-size: 18px;
+        }
+
         .hero-badges>.hero-badges-single {
             padding: 7.5px 10px;
             border-radius: 6px;
     
             p {
-                font-size: 14.4px;
+                font-size: 18px;
             }
         }
+    }
+
+    .team-header {
+        padding-bottom: 16px;
     }
     
     .team {
