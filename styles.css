@@ -148,6 +148,7 @@ p, a {
 .userstory-video {
     width: 100%;
     max-width: 1040px;
+    border-radius: 9px;
 }
 
 /* team */
